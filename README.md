@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/tnguyenminh/algorithm.svg)](http://hits.dwyl.com/tnguyenminh/algorithm)
+
 # Algorithm
 
 ## Table of Contents
