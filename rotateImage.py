@@ -45,11 +45,11 @@ def rotateImage(matrix):
     # flip horizontally
     for i in range(N):
         for j in range(N//2):
-            matrix[i][j], matrix[i][N -1 -j] = matrix[i][N -1 -j],  matrix[i][j]
+            matrix[i][j], matrix[i][N -1 -j] = matrix[i][N -1 -j], matrix[i][j]
 
     '''
     # method 2: flip along the horizontal centerline, then flip along the main diagonal
-    # matrix[:] = zip(*matrix[::-1])
+    matrix[:] = zip(*matrix[::-1])
     '''
 
 
