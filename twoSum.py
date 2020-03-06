@@ -24,4 +24,4 @@ def twoSum(lstNumber, target):
 
 
 answer = twoSum([2, 7, 11, 15], 9)
-print answer if answer else "Not exist"
+print(answer) if answer else "Not exist"
