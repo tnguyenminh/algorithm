@@ -26,4 +26,5 @@
   - [House Robber](https://github.com/tnguyenminh/algorithm/blob/master/houseRobber.py)
   - [Product of Array Except Self](https://github.com/tnguyenminh/algorithm/blob/master/productExceptSelf.py)
   - [Rotate Image](https://github.com/tnguyenminh/algorithm/blob/master/rotateImage.py)
+  - [Squares of a Sorted Array](https://github.com/tnguyenminh/algorithm/blob/master/sortedSquaredArray.py)
   - [Two Sum](https://github.com/tnguyenminh/algorithm/blob/master/twoSum.py)
