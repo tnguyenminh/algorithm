@@ -1,7 +1,8 @@
-def productExceptSelf(nums):
+def productExceptSelf(numbers: list) -> list:
     """Product of Array Except Self
-    Given an array nums of n integers where n > 1, return an array output such that
-    output[i] is equal to the product of all the elements of nums except nums[i].
+    Given an array numbers of n integers where n > 1, return an array output such
+    that output[i] is equal to the product of all the elements of numbers except
+    numbers[i].
 
     Example:
     Input:  [1, 2, 3, 4]
@@ -17,19 +18,20 @@ def productExceptSelf(nums):
     count as extra space for the purpose of space complexity analysis.)
     """
 
-    N = len(nums)
+    N = len(numbers)
     output_arr = [1 for i in range(N)]
     
     for i in range(1, N):
-        output_arr[i] = nums[i -1] * output_arr[i -1]
+        output_arr[i] = numbers[i -1] * output_arr[i -1]
 
     R = 1
     for i in range(N -1, -1, -1):
         output_arr[i] *= R
-        R *= nums[i]
+        R *= numbers[i]
 
     return output_arr
 
 
-result = productExceptSelf([1,2,3,4])
-print (result)
+if __name__ == "__main__":
+    result = productExceptSelf([1,2,3,4])
+    print(result)
